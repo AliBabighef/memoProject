@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'New Time Romain', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.sweet-alert-lan{
+
+   background-color: #521010;
+    width: 100%;
+    height: 50pxpx;
+    margin: 0;
+    padding: 0;
+
+}
+.sweet-alert-lan.hidden{
+
+    display: none;
+
+}
+
+.sweet-alert-lan .error p{
+
+    color: #dc5a6c;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 50px;
+
+}
+.sweet-alert-lan .error span {
+
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: -58px;
+    right: 3px;
+
+}
+.sweet-alert-lan .error span:hover {
+
+    cursor: pointer;
+    font-size: 30px;
+    background: #F00;
+    width: 30px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.conatainner{
+
+    width: 600px;
+    margin: 10px auto;
+
+}
+.conatainner .con_input_add{
+
+    background-color: #037b71;
+    width: 100%;
+    height: 75px;
+    display: inline-block;
+    display: inline-block;
+    text-align: center;
+    padding-top: 24px;
+    direction: rtl;
+
+}
+.conatainner .con_input_add .input input{
+    width: 555px;
+    height: 30px;
+    background: #16b9abde;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: #FFF;
+    padding-right: 10px;
+}
+.conatainner .con_input_add .input.no-clicking{
+
+    pointer-events: none;
+
+}
+.conatainner .con_input_add .input.no-clicking:hover{
+
+    cursor: no-drop;
+
+}
+.conatainner .con_input_add .input input:focus{
+
+    outline: none;
+    padding-left: 10px;
+
+}
+.conatainner .con_input_add span{
+    color: #037B71;
+    background: #FFFFFF;
+    width: 30px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+.conatainner .con_input_add span:hover{
+
+    cursor: pointer;
+    font-size: 40px;
+
+}
+.conatainner .con_msg_task{
+
+    background-color: #DDD;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+
+}
+.conatainner .con_msg_task .msg{
+
+    color: #a58585;
+
+}
+.conatainner .con_msg_task .msg.dirMsgAr{
+
+    direction: rtl;
+
+}
+.conatainner .con_msg_task .task_button{
+
+    overflow: hidden;
+
+}
+
+.conatainner .con_msg_task .msg,
+.conatainner .con_msg_task .task_button{
+
+    background: #FFF;
+    width: 560px;
+    border-radius: 8px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    margin: 20px;
+
+}
+
+.conatainner .con_msg_task .msg{
+
+    overflow: hidden;
+    direction: rtl;
+    padding-right: 10px;
+
+}
+
+.conatainner .con_msg_task .task_button span{
+
+    width: 50%;
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+
+}
+
+.conatainner .con_msg_task .task_button .taske.finshed{
+
+    text-decoration: line-through;
+    text-decoration-color: #F00;
+    color: #13B1A3;
+    text-decoration-style: double;
+
+}
+.conatainner .con_msg_task .task_button span.delete{
+
+    background: #F00;
+    width: 15%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    margin: 10px 0px;
+
+}
+.conatainner .con_msg_task .task_button span.delete:hover{
+
+    cursor: pointer;
+    color: #00F;
+    font-size: 20px
+}
+.conatainner .taske_count_complated{
+
+    overflow: hidden;
+    margin: 25px;
+
+}
+.conatainner .taske_count_complated .taske_count,
+.conatainner .taske_count_complated .taske_compalted{
+
+    width: 50%;
+    float: left;
+
+}
+.conatainner .taske_count_complated .taske_count span{
+
+    background-color: #F00;
+
+}
+.conatainner .taske_count_complated .taske_compalted span{
+
+    background-color: aqua;
+
+}
+.conatainner .taske_count_complated{
+
+    direction: rtl;
+
+}
+.conatainner .taske_count_complated .taske_count{
+
+    text-align: left;
+
+}
+.conatainner .taske_count_complated .taske_compalted .finshed_all{
+
+    display: none;
+
+}
+.conatainner .taske_count_complated .taske_count span,
+.conatainner .taske_count_complated .taske_compalted span{
+
+    width: 25px;
+    border-radius: 8px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+
+}
+.conatainner .taske_count_complated .taske_count .delete_all{
+
+    float: right;
+    width: 90px;
+    margin-right: 5px;
+    display: none;
+
+}
+.conatainner .taske_count_complated .taske_count .delete_all:hover{
+
+    cursor: pointer;
+    color: #00F;
+    font-weight: bold;
+
+}
+.conatainner .taske_count_complated .taske_compalted .finshed_all{
+
+    float: left;
+    width: 90px;
+    margin-left: 5px;
+
+}
+.conatainner .taske_count_complated .taske_compalted .finshed_all:hover{
+
+    cursor: pointer;
+    color: #13B1A3;
+    font-weight: bold;
+
+}
+.conatainner .taske_count_complated .taske_count .delete_all.hiddenAllTask,
+.conatainner .taske_count_complated .taske_compalted .finshed_all.hiddenAllFinshed{
+
+    display: revert;
+
+}
